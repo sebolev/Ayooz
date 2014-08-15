@@ -1,12 +1,11 @@
 package ma.ac.ensa;
 
 import java.io.IOException;
-
+/**
+ * @author Zouhir OUFTOU
+ *	Classe de test et lancement de serveur
+ */
 public class AppServeur {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		try {
@@ -15,7 +14,5 @@ public class AppServeur {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
-
 }

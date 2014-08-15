@@ -3,14 +3,12 @@ package ma.ac.ensa;
 import java.io.IOException;
 
 /**
- *
- * @author Zouhir OUFTOU
+ * 
+ * @author Windiliven
+ *	Class de test des clients
  */
 public class AppClient {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		Client client1=new Client(1);
